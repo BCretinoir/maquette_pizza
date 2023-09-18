@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./maquette pizza/assets/css/style.css" />
+
+    <title>Maquette Pizza</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check"><i class="fa-solid fa-bars blue ma-bars"></i></label>
+
+        <ul id="liste">
+          <li><a href="#project">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="pizza">
+        <h1>THIN CRUST PIZZA</h1>
+
+        <h2>Let me see the menu</h2>
+        <p id="open">Open from 10am to 12pm</p>
+      </div>
+    </header>
+    <main>
+      <section id="menu">
+        <h3>The menu</h3>
+        <div id="plat">
+          <nav>
+            <ul>
+              <li id="pizzared">Pizza</li>
+              <li>Salads</li>
+              <li>Starter</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div id="manger">
+          <div>
+            <h4>Margharita <span class="prix">$12.50</span></h4>
+            <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+          </div>
+
+          <div>
+            <h4>Formaggio<span class="prix">$15.50</span></h4>
+            <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+          </div>
+
+          <div>
+            <h4>Chicken<span class="prix">$17.00</span></h4>
+            <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+          </div>
+
+          <div>
+            <h4>Pineapple'o'clock<span class="prix">$16.50</span></h4>
+            <p>
+              Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+            </p>
+          </div>
+
+          <div>
+            <h4>
+              <span>Meat Town <span id="hot">Hot!</span></span
+              ><span class="prix">$20.00</span>
+            </h4>
+            <p>
+              Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef,
+              chicken
+            </p>
+          </div>
+
+          <div>
+            <h4>
+              <span>Parma <span id="new">New</span></span
+              ><span class="prix">$21.50</span>
+            </h4>
+            <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h5>About</h5>
+
+        <p>
+          The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        <div id="div1">
+          <p>
+            The Chef? Mr. Italiano himselfChef We are proud of our interiors.
+          </p>
+
+          <img
+            id="chef"
+            src="./maquette pizza/assets/img/chef.jpg"
+            alt="chef"
+          />
+        </div>
+
+        <div id="div2">
+          <img
+            id="resto"
+            src="./maquette pizza/assets/img/onepage_restaurant.jpg"
+            alt="resto"
+          />
+        </div>
+
+        <h2>Opening hours</h2>
+        <div id="hour">
+          <div>
+            <p>Mon & Tue CLOSED</p>
+            <p>Wednesday 10.00 - 24.00</p>
+            <p>Thursday 10:00 - 24:00</p>
+          </div>
+
+          <div>
+            <p>Friday 10:00 - 12:00</p>
+            <p>Saturday 10:00 - 23:00</p>
+            <p>Sunday Closed</p>
+          </div>
+        </div>
+      </section>
+      <div id="map">
+        <img src="./maquette pizza/assets/img/map.jpg" alt="maps" />
+      </div>
+      <section id="contact">
+        <h5>Contact</h5>
+        <p>
+          Find us at some address at some place or call us at 05050515-122330
+        </p>
+        <br />
+        <p>
+          <span class="fyi">FYI!</span> We offer full-service catering for any
+          event, large or small. We understand your needs and we will cater the
+          food to satisfy the biggerst criteria of them all, both look and
+          taste.
+        </p>
+        <br />
+        <p>
+          Reserve a table, ask for today's special or just send us a message:
+        </p>
+        <br />
+
+        <form id="form" action="">
+          <div><input placeholder="Name" ="text" /></div>
+          <br />
+          <div><input placeholder="How Many People" ="text" /></div>
+          <br />
+
+          <div><input placeholder="date" type="date" /></div>
+          <br />
+
+          <div>
+            <input placeholder="Message / Special Requirements" ="text" />
+          </div>
+          <br />
+
+          <div>
+            <input type="submit" value="Send message" class="submitted" />
+          </div>
+        </form>
+      </section>
+      <footer>
+        <p>Powered BY</p>
+      </footer>
+    </main>
+  </body>
+</html>
